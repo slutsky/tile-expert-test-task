@@ -7,6 +7,9 @@ namespace App\CatalogIntegration\Service;
 use App\Catalog\Article;
 use App\Catalog\ArticleGatewayInterface;
 use App\Catalog\Articles;
+use App\CatalogIntegration\Exception\DeserializationException;
+use App\CatalogIntegration\Exception\HttpException;
+use App\CatalogIntegration\Exception\NotFoundException;
 use Symfony\Component\DependencyInjection\Attribute\Target;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Exception\ExceptionInterface as SerializerExceptionInterface;
@@ -23,6 +26,11 @@ final class ArticleGateway implements ArticleGatewayInterface
     ) {
     }
 
+    /**
+     * @throws HttpException
+     * @throws DeserializationException
+     * @throws NotFoundException
+     */
     #[\Override]
     public function getArticle(string $factory, string $collection, string $article): Article
     {
@@ -33,13 +41,13 @@ final class ArticleGateway implements ArticleGatewayInterface
         try {
             $content = $response->getContent(false);
         } catch (HttpExceptionInterface $exception) {
-            throw new \RuntimeException('Unexpected response', 0, $exception);
+            throw HttpException::unexpectedResponse($exception);
         }
 
         try {
             $deserialized = $this->serializer->deserialize($content, Articles::class, JsonEncoder::FORMAT);
         } catch (SerializerExceptionInterface $exception) {
-            throw new \RuntimeException('Deserialization failed.', 0, $exception);
+            throw DeserializationException::deserializationFailed($exception);
         }
 
         foreach ($deserialized->elements as $element) {
@@ -48,6 +56,6 @@ final class ArticleGateway implements ArticleGatewayInterface
             }
         }
 
-        throw new \RuntimeException('Article not found.');
+        throw NotFoundException::articleNotFound();
     }
 }

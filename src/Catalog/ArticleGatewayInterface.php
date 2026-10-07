@@ -6,5 +6,8 @@ namespace App\Catalog;
 
 interface ArticleGatewayInterface
 {
+    /**
+     * @throws ExceptionInterface
+     */
     public function getArticle(string $factory, string $collection, string $article): Article;
 }
