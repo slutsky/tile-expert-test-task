@@ -9,7 +9,10 @@ services:
       - php
 
   php:
-    build: ./docker/php
+    build:
+      context: ./docker/php
+      args:
+        USER_ID: ${USER_ID:-1000}
     shm_size: 256mb
     volumes:
       - .:/var/www/html:rw
