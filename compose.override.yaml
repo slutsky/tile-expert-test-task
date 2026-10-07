@@ -1,7 +1,7 @@
 
 services:
 ###> doctrine/doctrine-bundle ###
-  database:
+  mariadb:
     ports:
-      - "5432"
+      - ${MARIADB_PORT:-3306}:3306
 ###< doctrine/doctrine-bundle ###
