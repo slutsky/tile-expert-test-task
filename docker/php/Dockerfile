@@ -12,7 +12,7 @@ RUN apk add --no-cache --virtual .build-deps \
         util-linux-dev \
         icu-dev \
         ${PHPIZE_DEPS} \
-    && docker-php-ext-install intl pdo_mysql \
+    && docker-php-ext-install intl pdo_mysql pcntl \
     && apk del .build-deps \
     && apk add --no-cache icu \
     && mkdir -p /var/www/html/config/ \

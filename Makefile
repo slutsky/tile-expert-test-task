@@ -2,7 +2,10 @@ USER_ID ?= $(id -u)
 
 override DOCKER_COMPOSE = @USER_ID=${USER_ID} docker compose
 
-.PHONY: up down
+.PHONY: build up down
+
+build:
+	${DOCKER_COMPOSE} build
 
 up:
 	${DOCKER_COMPOSE} up -d
