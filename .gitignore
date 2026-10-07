@@ -1,4 +1,5 @@
 /compose.override.yaml
+/public/coverage
 
 ###> symfony/framework-bundle ###
 /.env.local

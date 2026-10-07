@@ -1,0 +1,22 @@
+services:
+    # default configuration for services in *this* file
+    _defaults:
+        autowire: true      # Automatically injects dependencies in your services.
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+
+    App\CatalogIntegration\:
+        resource: '../../'
+        exclude: '../../{Dto,Resources}'
+
+    app.catalog_integration.article_gateway:
+        class: App\CatalogIntegration\Service\ArticleGateway
+        arguments:
+            $client: '@app.catalog_integration.client'
+
+    App\Catalog\ArticleGatewayInterface: '@app.catalog_integration.article_gateway'
+
+framework:
+    http_client:
+        scoped_clients:
+            app.catalog_integration.client:
+                base_uri: 'https://tile.expert'

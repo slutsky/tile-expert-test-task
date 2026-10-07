@@ -12,7 +12,10 @@ RUN apk add --no-cache --virtual .build-deps \
         util-linux-dev \
         icu-dev \
         ${PHPIZE_DEPS} \
+    && pecl install xdebug-3.5.3 \
     && docker-php-ext-install intl pdo_mysql pcntl \
+    && docker-php-ext-enable xdebug \
+    && pecl clear-cache \
     && apk del .build-deps \
     && apk add --no-cache icu \
     && mkdir -p /var/www/html/config/ \
