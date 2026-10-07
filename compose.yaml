@@ -11,11 +11,13 @@ services:
 
   php:
     build: ./docker/php
+    shm_size: 256mb
     volumes:
       - .:/var/www/html:rw
     environment:
       XDEBUG_MODE: develop,debug
       XDEBUG_CONFIG: client_host=host.docker.internal
+      PHP_OPCACHE_VALIDATE_TIMESTAMPS: 1
     depends_on:
       mariadb:
         condition: service_healthy
