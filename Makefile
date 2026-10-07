@@ -2,7 +2,7 @@ USER_ID ?= $(id -u)
 
 override DOCKER_COMPOSE = USER_ID=${USER_ID} docker compose
 
-.PHONY: build up down phpstan cscheck csfix test cover cover-html
+.PHONY: build up down phpstan cscheck csfix test test-trigger cover cover-html
 
 build:
 	@${DOCKER_COMPOSE} build
@@ -23,7 +23,10 @@ csfix:
 	@${DOCKER_COMPOSE} exec php bin/php-cs-fixer fix
 
 test:
-	@${DOCKER_COMPOSE} exec php bin/phpunit
+	@${DOCKER_COMPOSE} exec php bin/phpunit --display-all-issues
+
+test-trigger:
+	@${DOCKER_COMPOSE} exec --env XDEBUG_TRIGGER=1 php bin/phpunit
 
 cover:
 	@${DOCKER_COMPOSE} exec --env XDEBUG_MODE=coverage php \

@@ -10,7 +10,6 @@ use App\Catalog\Articles;
 use App\CatalogIntegration\Exception\DeserializationException;
 use App\CatalogIntegration\Exception\HttpException;
 use App\CatalogIntegration\Exception\NotFoundException;
-use Symfony\Component\DependencyInjection\Attribute\Target;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Exception\ExceptionInterface as SerializerExceptionInterface;
 use Symfony\Component\Serializer\SerializerInterface;
@@ -20,7 +19,6 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
 final class ArticleGateway implements ArticleGatewayInterface
 {
     public function __construct(
-        #[Target('catalog')]
         private readonly HttpClientInterface $client,
         private readonly SerializerInterface $serializer,
     ) {

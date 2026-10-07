@@ -1,0 +1,2092 @@
+{
+  "elements": {
+    "1451883697": {
+      "id": 1451883697,
+      "code": "С000628666",
+      "name": "K269_ARTESETA CAMOSCIO RIGA",
+      "notSample": null,
+      "alternateName": "K269_ ARTESETA CAMOSCIO RIGA",
+      "file": "marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666.webp",
+      "expressSample": null,
+      "variantImage": null,
+      "sizeX": 50,
+      "sizeY": 120,
+      "sizeZ": 0,
+      "fileSize2X": 82,
+      "fileSize2Y": 199,
+      "fileSize3X": 791,
+      "fileSize3Y": 1919,
+      "fileSize8X": 2929,
+      "fileSize8Y": 7106,
+      "typeConstraint": 0,
+      "packagingCount": 1.8,
+      "packagingCountFt": 19.37504,
+      "packagingCountPC": 3,
+      "pricePrx": 8.95,
+      "pallet": 54,
+      "palletFt": 581.25116,
+      "minOrder": 0,
+      "m2OnePs": 0.6,
+      "multiplePallet": 1,
+      "url": "k269-arteseta-camoscio-riga-s000628666",
+      "backgroundWhite": null,
+      "borderGrey": null,
+      "imageSetting": null,
+      "fileW": "b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+      "fileH": "b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+      "fileW4000": "4k_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+      "fileH4000": "4k_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+      "scheme": false,
+      "rotate": true,
+      "fileRotation": {
+        "_150_x": {
+          "w": {
+            "name": "_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "x": 148,
+            "y": 61
+          },
+          "h": {
+            "name": "_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "x": 61,
+            "y": 148
+          }
+        },
+        "_150_X": {
+          "w": {
+            "name": "v_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "x": 148,
+            "y": 61
+          },
+          "h": {
+            "name": "v_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "x": 61,
+            "y": 148
+          }
+        },
+        "x_500_x": {
+          "w": {
+            "name": "a_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "x": 500,
+            "y": 206
+          },
+          "h": {
+            "name": "a_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "x": 206,
+            "y": 500
+          }
+        },
+        "x_740_x": {
+          "w": {
+            "name": "c_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "x": 740,
+            "y": 305
+          },
+          "h": {
+            "name": "c_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "x": 305,
+            "y": 740
+          }
+        },
+        "x_1000_x": {
+          "w": {
+            "name": "b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "x": 1919,
+            "y": 791
+          },
+          "h": {
+            "name": "b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "x": 791,
+            "y": 1919
+          }
+        },
+        "x_3840_x": {
+          "w": {
+            "name": "4k_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "x": 7106,
+            "y": 2929
+          },
+          "h": {
+            "name": "4k_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "x": 2929,
+            "y": 7106
+          }
+        }
+      },
+      "fileEdit": null,
+      "commentSchemeImage": null,
+      "priceUSD": 87.5,
+      "priceMqUSD": 87.12,
+      "priceFqUSD": 8.09,
+      "priceUSE": 76.99,
+      "priceMqUSE": 76.99,
+      "descriptions": [],
+      "details": {
+        "id": 659995918,
+        "file": "marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666.webp",
+        "gtin": null,
+        "fileSize1X": 61,
+        "fileSize1Y": 148,
+        "fileSize2X": 82,
+        "fileSize2Y": 199,
+        "fileSize3X": 791,
+        "fileSize3Y": 1919,
+        "fileSize8X": 2929,
+        "fileSize8Y": 7106,
+        "fileSize500X": 206,
+        "fileSize500Y": 500,
+        "fileSize740X": 305,
+        "fileSize740Y": 740,
+        "comment": null,
+        "fileEdit": null,
+        "imageSetting": null,
+        "fileW": "b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+        "fileH": "b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+        "fileW4000": "4k_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+        "fileH4000": "4k_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+        "commentSchemeImage": null,
+        "variantImage": null,
+        "fileRotation": {
+          "_150_x": {
+            "w": {
+              "name": "_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "x": 148,
+              "y": 61
+            },
+            "h": {
+              "name": "_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "x": 61,
+              "y": 148
+            }
+          },
+          "_150_X": {
+            "w": {
+              "name": "v_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "x": 148,
+              "y": 61
+            },
+            "h": {
+              "name": "v_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "x": 61,
+              "y": 148
+            }
+          },
+          "x_500_x": {
+            "w": {
+              "name": "a_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "x": 500,
+              "y": 206
+            },
+            "h": {
+              "name": "a_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "x": 206,
+              "y": 500
+            }
+          },
+          "x_740_x": {
+            "w": {
+              "name": "c_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "x": 740,
+              "y": 305
+            },
+            "h": {
+              "name": "c_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "x": 305,
+              "y": 740
+            }
+          },
+          "x_1000_x": {
+            "w": {
+              "name": "b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "x": 1919,
+              "y": 791
+            },
+            "h": {
+              "name": "b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "x": 791,
+              "y": 1919
+            }
+          },
+          "x_3840_x": {
+            "w": {
+              "name": "4k_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+              "x": 7106,
+              "y": 2929
+            },
+            "h": {
+              "name": "4k_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+              "x": 2929,
+              "y": 7106
+            }
+          }
+        },
+        "rotate": true,
+        "bigSizeScheme": null
+      },
+      "delivery": {
+        "id": 1
+      },
+      "type": {
+        "id": 113,
+        "alias": "left_menu_background_tile",
+        "name": "Background tile"
+      },
+      "measure": {
+        "id": 1,
+        "alias": "measure_mq",
+        "name": "m²"
+      },
+      "material": {
+        "id": 5,
+        "alias": "left_menu_ceramics",
+        "name": "Ceramics"
+      },
+      "surface": {
+        "id": 1,
+        "alias": "left_menu_glossy",
+        "name": "glossy"
+      },
+      "factoryColors": [
+        {
+          "id": 963,
+          "name": "Camoscio"
+        }
+      ],
+      "textures": [],
+      "styles": [],
+      "shape": {
+        "id": 4,
+        "alias": "Rectangle"
+      },
+      "motivs": [
+        {
+          "id": 10,
+          "alias": "left_menu_strip",
+          "name": "Полоска"
+        }
+      ],
+      "measurementSize": {
+        "id": 6,
+        "alias": "left_menu_LengthXWidth"
+      },
+      "priceDiscounts": [
+        {
+          "id": 195289,
+          "amount": 54,
+          "amountFt": 581.25,
+          "fold": false,
+          "priceUSD": 78.99,
+          "priceFqUSD": 7.35,
+          "priceUSE": 69.5,
+          "priceFqUSE": 6.45
+        }
+      ],
+      "collection": {
+        "id": 3259870,
+        "url": "arteseta",
+        "name": "Arteseta",
+        "alternateName": "Arteseta",
+        "status": 1,
+        "process": true,
+        "settings": null,
+        "prMinUSD": 82.6,
+        "prMinUSE": 72.99,
+        "prMinFUSD": 7.69,
+        "prMinFUSE": 6.79,
+        "factory": {
+          "id": 975,
+          "url": "marca-corona",
+          "name": "Marca Corona",
+          "alternateName": "Ceramiche Marca Corona",
+          "status": 1,
+          "suspended": false,
+          "statedAt": {
+            "date": "2021-06-16 12:23:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "country": {
+            "id": 380,
+            "code": "IT",
+            "alias": "country.it"
+          }
+        },
+        "a_version": true,
+        "priceSort": 7.69,
+        "priceSortCur": "$",
+        "priceSortMea": "ft"
+      },
+      "interiors": [
+        {
+          "id": 299335,
+          "file": "marca-corona-arteseta.jpg",
+          "name": "marca-corona-arteseta",
+          "status": 1,
+          "url": "/en-us/tile/marca-corona/arteseta/i/marca-corona-arteseta",
+          "fileSizeX": 698,
+          "fileSizeY": 900,
+          "ideasCount": 4,
+          "styles": [],
+          "textures": [],
+          "collection": {
+            "id": 3259870,
+            "url": "arteseta",
+            "name": "Arteseta",
+            "alternateName": "Arteseta",
+            "status": 1,
+            "process": true,
+            "rating": 28,
+            "settings": null,
+            "accessible": null,
+            "prMinUSD": 82.6,
+            "prMinUSE": 72.99,
+            "prMinFUSD": 7.69,
+            "prMinFUSE": 6.79,
+            "factory": {
+              "id": 975,
+              "url": "marca-corona",
+              "name": "Marca Corona",
+              "alternateName": "Ceramiche Marca Corona",
+              "suspended": false,
+              "status": 1,
+              "statedAt": {
+                "date": "2021-06-16 12:23:37.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+              },
+              "country": {
+                "id": 380,
+                "code": "IT",
+                "alias": "country.it",
+                "name": "Италия"
+              }
+            }
+          },
+          "inIdeaBook": false,
+          "paths": {
+            "preview": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/a_marca-corona-arteseta.webp?64",
+            "preview_400": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/z_marca-corona-arteseta.webp?64",
+            "hd": null,
+            "shd_1080": null,
+            "s_900": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/marca-corona-arteseta.jpg?64"
+          }
+        }
+      ],
+      "colors": [
+        {
+          "id": 6,
+          "name": "Серый",
+          "alias": "left_menu_color_grey"
+        }
+      ],
+      "alt": "K269_ ARTESETA CAMOSCIO RIGA Marca Corona Arteseta",
+      "sizeGbX": 19.69,
+      "sizeGbY": 47.24,
+      "sizeGbZ": 0,
+      "importantInfo": null,
+      "discountsAmount": [
+        {
+          "priceFl": 8.09,
+          "price": "8.09",
+          "startAmountRaw": 0,
+          "startAmount": "0",
+          "woVATPrice": 8.09,
+          "fold": 0,
+          "endAmount": 581.25,
+          "endAmountRaw": 581.25
+        },
+        {
+          "priceFl": 7.35,
+          "price": "7.35",
+          "startAmountRaw": 581.25,
+          "startAmount": "581.25",
+          "woVATPrice": 7.35,
+          "fold": false
+        }
+      ],
+      "numberElement": 1,
+      "in_stock": "In stock in Italy",
+      "sampleData": null,
+      "addUrl": "/en-us/buy-order/list/1451883697",
+      "sampleUrl": "/en-us/json/sample/С000628666",
+      "collectionUrl": "/en-us/tile/marca-corona/arteseta",
+      "factoryUrl": "/en-us/catalogue/marca-corona",
+      "prc": "8.09",
+      "mea": "ft²",
+      "amount": 19.37504,
+      "orders": false,
+      "ssLink": "/en-us/tile/marca-corona/arteseta/a/k269-arteseta-camoscio-riga-s000628666",
+      "pathImg": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali/b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666.webp?64",
+      "imageZipLink": null,
+      "artImgSrc": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali/marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666.webp?64",
+      "width": 82,
+      "height": 199,
+      "imageSettingIcon": null,
+      "hrefSlider": "/en-us/tile/marca-corona/arteseta/a/k269-arteseta-camoscio-riga-s000628666",
+      "mss": "19.69\" × 47.24\"",
+      "prx": [
+        10.739999999999998,
+        9.665999999999999
+      ],
+      "rotation": {
+        "_150_x": {
+          "w": {
+            "name": "_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "_150_X": {
+          "w": {
+            "name": "v_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "v_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_500_x": {
+          "w": {
+            "name": "a_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "a_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_740_x": {
+          "w": {
+            "name": "c_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "c_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_1000_x": {
+          "w": {
+            "name": "b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "b_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_3840_x": {
+          "w": {
+            "name": "4k_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "4k_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k269_arteseta_camoscio_riga_s000628666_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        }
+      },
+      "bigSizeScheme": false,
+      "title": "Gray tiles 50x120 (Italy). Reviews. Samples to the USA in 48h",
+      "description": "Online calculation of shipping expenses & time to the USA. Courier delivery of samples in 48h. Customer reviews. Best prices",
+      "downloadArticleImageHelpTooltip": "Download high-resolution image"
+    },
+    "1451883679": {
+      "id": 1451883679,
+      "code": "С000628660",
+      "name": "K263_ARTESETA CAMOSCIO",
+      "notSample": null,
+      "alternateName": "K263_ARTESETA CAMOSCIO",
+      "file": "marca-corona-arteseta-k263_arteseta_camoscio_s000628660.webp",
+      "expressSample": true,
+      "variantImage": null,
+      "sizeX": 50,
+      "sizeY": 120,
+      "sizeZ": 0,
+      "fileSize2X": 83,
+      "fileSize2Y": 200,
+      "fileSize3X": 798,
+      "fileSize3Y": 1919,
+      "fileSize8X": 2959,
+      "fileSize8Y": 7114,
+      "typeConstraint": 0,
+      "packagingCount": 1.8,
+      "packagingCountFt": 19.37504,
+      "packagingCountPC": 3,
+      "pricePrx": 8.41,
+      "pallet": 63,
+      "palletFt": 678.12636,
+      "minOrder": 0,
+      "m2OnePs": 0.6,
+      "multiplePallet": 1,
+      "url": "k263-arteseta-camoscio-s000628660",
+      "backgroundWhite": null,
+      "borderGrey": null,
+      "imageSetting": null,
+      "fileW": "b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+      "fileH": "b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+      "fileW4000": "4k_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+      "fileH4000": "4k_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+      "scheme": false,
+      "rotate": true,
+      "fileRotation": {
+        "_150_x": {
+          "w": {
+            "name": "_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "x": 149,
+            "y": 62
+          },
+          "h": {
+            "name": "_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "x": 62,
+            "y": 149
+          }
+        },
+        "_150_X": {
+          "w": {
+            "name": "v_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "x": 149,
+            "y": 62
+          },
+          "h": {
+            "name": "v_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "x": 62,
+            "y": 149
+          }
+        },
+        "x_500_x": {
+          "w": {
+            "name": "a_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "x": 498,
+            "y": 207
+          },
+          "h": {
+            "name": "a_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "x": 207,
+            "y": 498
+          }
+        },
+        "x_740_x": {
+          "w": {
+            "name": "c_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "x": 738,
+            "y": 307
+          },
+          "h": {
+            "name": "c_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "x": 307,
+            "y": 738
+          }
+        },
+        "x_1000_x": {
+          "w": {
+            "name": "b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "x": 1919,
+            "y": 798
+          },
+          "h": {
+            "name": "b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "x": 798,
+            "y": 1919
+          }
+        },
+        "x_3840_x": {
+          "w": {
+            "name": "4k_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "x": 7114,
+            "y": 2959
+          },
+          "h": {
+            "name": "4k_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "x": 2959,
+            "y": 7114
+          }
+        }
+      },
+      "fileEdit": null,
+      "commentSchemeImage": null,
+      "priceUSD": 82.99,
+      "priceMqUSD": 82.6,
+      "priceFqUSD": 7.69,
+      "priceUSE": 72.99,
+      "priceMqUSE": 72.99,
+      "descriptions": [],
+      "details": {
+        "id": 659995900,
+        "file": "marca-corona-arteseta-k263_arteseta_camoscio_s000628660.webp",
+        "gtin": null,
+        "fileSize1X": 62,
+        "fileSize1Y": 149,
+        "fileSize2X": 83,
+        "fileSize2Y": 200,
+        "fileSize3X": 798,
+        "fileSize3Y": 1919,
+        "fileSize8X": 2959,
+        "fileSize8Y": 7114,
+        "fileSize500X": 207,
+        "fileSize500Y": 498,
+        "fileSize740X": 307,
+        "fileSize740Y": 738,
+        "comment": null,
+        "fileEdit": null,
+        "imageSetting": null,
+        "fileW": "b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+        "fileH": "b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+        "fileW4000": "4k_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+        "fileH4000": "4k_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+        "commentSchemeImage": null,
+        "variantImage": null,
+        "fileRotation": {
+          "_150_x": {
+            "w": {
+              "name": "_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "x": 149,
+              "y": 62
+            },
+            "h": {
+              "name": "_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "x": 62,
+              "y": 149
+            }
+          },
+          "_150_X": {
+            "w": {
+              "name": "v_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "x": 149,
+              "y": 62
+            },
+            "h": {
+              "name": "v_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "x": 62,
+              "y": 149
+            }
+          },
+          "x_500_x": {
+            "w": {
+              "name": "a_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "x": 498,
+              "y": 207
+            },
+            "h": {
+              "name": "a_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "x": 207,
+              "y": 498
+            }
+          },
+          "x_740_x": {
+            "w": {
+              "name": "c_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "x": 738,
+              "y": 307
+            },
+            "h": {
+              "name": "c_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "x": 307,
+              "y": 738
+            }
+          },
+          "x_1000_x": {
+            "w": {
+              "name": "b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "x": 1919,
+              "y": 798
+            },
+            "h": {
+              "name": "b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "x": 798,
+              "y": 1919
+            }
+          },
+          "x_3840_x": {
+            "w": {
+              "name": "4k_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+              "x": 7114,
+              "y": 2959
+            },
+            "h": {
+              "name": "4k_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+              "x": 2959,
+              "y": 7114
+            }
+          }
+        },
+        "rotate": true,
+        "bigSizeScheme": null
+      },
+      "delivery": {
+        "id": 1
+      },
+      "type": {
+        "id": 113,
+        "alias": "left_menu_background_tile",
+        "name": "Background tile"
+      },
+      "measure": {
+        "id": 1,
+        "alias": "measure_mq",
+        "name": "m²"
+      },
+      "material": {
+        "id": 5,
+        "alias": "left_menu_ceramics",
+        "name": "Ceramics"
+      },
+      "surface": {
+        "id": 1,
+        "alias": "left_menu_glossy",
+        "name": "glossy"
+      },
+      "factoryColors": [
+        {
+          "id": 963,
+          "name": "Camoscio"
+        }
+      ],
+      "textures": [],
+      "styles": [],
+      "shape": {
+        "id": 4,
+        "alias": "Rectangle"
+      },
+      "motivs": [],
+      "measurementSize": {
+        "id": 6,
+        "alias": "left_menu_LengthXWidth"
+      },
+      "priceDiscounts": [
+        {
+          "id": 52975,
+          "amount": 63,
+          "amountFt": 678.13,
+          "fold": false,
+          "priceUSD": 74.99,
+          "priceFqUSD": 6.95,
+          "priceUSE": 65.99,
+          "priceFqUSE": 6.15
+        }
+      ],
+      "collection": {
+        "id": 3259870,
+        "url": "arteseta",
+        "name": "Arteseta",
+        "alternateName": "Arteseta",
+        "status": 1,
+        "process": true,
+        "settings": null,
+        "prMinUSD": 82.6,
+        "prMinUSE": 72.99,
+        "prMinFUSD": 7.69,
+        "prMinFUSE": 6.79,
+        "factory": {
+          "id": 975,
+          "url": "marca-corona",
+          "name": "Marca Corona",
+          "alternateName": "Ceramiche Marca Corona",
+          "status": 1,
+          "suspended": false,
+          "statedAt": {
+            "date": "2021-06-16 12:23:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "country": {
+            "id": 380,
+            "code": "IT",
+            "alias": "country.it"
+          }
+        },
+        "a_version": true,
+        "priceSort": 7.69,
+        "priceSortCur": "$",
+        "priceSortMea": "ft"
+      },
+      "interiors": [
+        {
+          "id": 299359,
+          "file": "marca-corona-arteseta-8.jpg",
+          "name": "marca-corona-arteseta-8",
+          "status": 1,
+          "url": "/en-us/tile/marca-corona/arteseta/i/marca-corona-arteseta-8",
+          "fileSizeX": 698,
+          "fileSizeY": 900,
+          "ideasCount": 3,
+          "styles": [],
+          "textures": [],
+          "collection": {
+            "id": 3259870,
+            "url": "arteseta",
+            "name": "Arteseta",
+            "alternateName": "Arteseta",
+            "status": 1,
+            "process": true,
+            "rating": 28,
+            "settings": null,
+            "accessible": null,
+            "prMinUSD": 82.6,
+            "prMinUSE": 72.99,
+            "prMinFUSD": 7.69,
+            "prMinFUSE": 6.79,
+            "factory": {
+              "id": 975,
+              "url": "marca-corona",
+              "name": "Marca Corona",
+              "alternateName": "Ceramiche Marca Corona",
+              "suspended": false,
+              "status": 1,
+              "statedAt": {
+                "date": "2021-06-16 12:23:37.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+              },
+              "country": {
+                "id": 380,
+                "code": "IT",
+                "alias": "country.it",
+                "name": "Италия"
+              }
+            }
+          },
+          "inIdeaBook": false,
+          "paths": {
+            "preview": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/a_marca-corona-arteseta-8.webp?64",
+            "preview_400": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/z_marca-corona-arteseta-8.webp?64",
+            "hd": null,
+            "shd_1080": null,
+            "s_900": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/marca-corona-arteseta-8.jpg?64"
+          }
+        }
+      ],
+      "colors": [
+        {
+          "id": 6,
+          "name": "Серый",
+          "alias": "left_menu_color_grey"
+        }
+      ],
+      "alt": "K263_ARTESETA CAMOSCIO Marca Corona Arteseta",
+      "sizeGbX": 19.69,
+      "sizeGbY": 47.24,
+      "sizeGbZ": 0,
+      "importantInfo": null,
+      "discountsAmount": [
+        {
+          "priceFl": 7.69,
+          "price": "7.69",
+          "startAmountRaw": 0,
+          "startAmount": "0",
+          "woVATPrice": 7.69,
+          "fold": 0,
+          "endAmount": 678.13,
+          "endAmountRaw": 678.13
+        },
+        {
+          "priceFl": 6.95,
+          "price": "6.95",
+          "startAmountRaw": 678.13,
+          "startAmount": "678.13",
+          "woVATPrice": 6.95,
+          "fold": false
+        }
+      ],
+      "numberElement": 2,
+      "in_stock": "In stock in Italy",
+      "sampleData": null,
+      "addUrl": "/en-us/buy-order/list/1451883679",
+      "sampleUrl": "/en-us/json/sample/С000628660",
+      "collectionUrl": "/en-us/tile/marca-corona/arteseta",
+      "factoryUrl": "/en-us/catalogue/marca-corona",
+      "prc": "7.69",
+      "mea": "ft²",
+      "amount": 19.37504,
+      "orders": false,
+      "ssLink": "/en-us/tile/marca-corona/arteseta/a/k263-arteseta-camoscio-s000628660",
+      "pathImg": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali/b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660.webp?64",
+      "imageZipLink": null,
+      "artImgSrc": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali/marca-corona-arteseta-k263_arteseta_camoscio_s000628660.webp?64",
+      "width": 83,
+      "height": 200,
+      "imageSettingIcon": null,
+      "hrefSlider": "/en-us/tile/marca-corona/arteseta/a/k263-arteseta-camoscio-s000628660",
+      "mss": "19.69\" × 47.24\"",
+      "prx": [
+        10.092,
+        9.0828
+      ],
+      "rotation": {
+        "_150_x": {
+          "w": {
+            "name": "_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "_150_X": {
+          "w": {
+            "name": "v_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "v_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_500_x": {
+          "w": {
+            "name": "a_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "a_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_740_x": {
+          "w": {
+            "name": "c_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "c_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_1000_x": {
+          "w": {
+            "name": "b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "b_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_3840_x": {
+          "w": {
+            "name": "4k_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "4k_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k263_arteseta_camoscio_s000628660_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        }
+      },
+      "bigSizeScheme": false,
+      "title": "Gray tiles 50x120 (Italy). Reviews. Samples to the USA in 48h",
+      "description": "Online calculation of shipping expenses & time to the USA. Courier delivery of samples in 48h. Customer reviews. Best prices",
+      "downloadArticleImageHelpTooltip": "Download high-resolution image"
+    },
+    "1451883727": {
+      "id": 1451883727,
+      "code": "С000628675",
+      "name": "K280_ARTESETA CAMOSCIO SPIGOLO",
+      "notSample": true,
+      "alternateName": "K280_ARTESETA CAMOSCIO SPIGOLO",
+      "file": "marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675.webp",
+      "expressSample": null,
+      "variantImage": null,
+      "sizeX": 1.2,
+      "sizeY": 50,
+      "sizeZ": 0,
+      "fileSize2X": 200,
+      "fileSize2Y": 5,
+      "fileSize3X": 1920,
+      "fileSize3Y": 48,
+      "fileSize8X": 7114,
+      "fileSize8Y": 178,
+      "typeConstraint": 0,
+      "packagingCount": 6,
+      "packagingCountFt": 0,
+      "packagingCountPC": 6,
+      "pricePrx": 17.61,
+      "pallet": 1200,
+      "palletFt": 0,
+      "minOrder": 0,
+      "m2OnePs": 0.006,
+      "multiplePallet": 1,
+      "url": "k280-arteseta-camoscio-spigolo-s000628675",
+      "backgroundWhite": null,
+      "borderGrey": null,
+      "imageSetting": null,
+      "fileW": null,
+      "fileH": null,
+      "fileW4000": null,
+      "fileH4000": null,
+      "scheme": false,
+      "rotate": null,
+      "fileRotation": {
+        "_150_x": {
+          "w": {
+            "name": "_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "x": 120,
+            "y": 3
+          },
+          "h": {
+            "name": "_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "x": 3,
+            "y": 120
+          }
+        },
+        "_150_X": {
+          "w": {
+            "name": "v_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "x": 120,
+            "y": 3
+          },
+          "h": {
+            "name": "v_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "x": 3,
+            "y": 120
+          }
+        },
+        "x_500_x": {
+          "w": {
+            "name": "a_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "x": 500,
+            "y": 13
+          },
+          "h": {
+            "name": "a_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "x": 13,
+            "y": 500
+          }
+        },
+        "x_740_x": {
+          "w": {
+            "name": "c_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "x": 740,
+            "y": 19
+          },
+          "h": {
+            "name": "c_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "x": 19,
+            "y": 740
+          }
+        },
+        "x_1000_x": {
+          "w": {
+            "name": "b_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "x": 1920,
+            "y": 48
+          },
+          "h": {
+            "name": "b_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "x": 48,
+            "y": 1920
+          }
+        },
+        "x_3840_x": {
+          "w": {
+            "name": "4k_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+            "x": 7114,
+            "y": 178
+          },
+          "h": {
+            "name": "4k_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+            "x": 178,
+            "y": 7114
+          }
+        }
+      },
+      "fileEdit": null,
+      "commentSchemeImage": null,
+      "priceUSD": 14.69,
+      "priceMqUSD": 2449.96,
+      "priceFqUSD": 227.65,
+      "priceUSE": 12.99,
+      "priceMqUSE": 2165,
+      "descriptions": [],
+      "details": {
+        "id": 659995948,
+        "file": "marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675.webp",
+        "gtin": null,
+        "fileSize1X": 120,
+        "fileSize1Y": 3,
+        "fileSize2X": 200,
+        "fileSize2Y": 5,
+        "fileSize3X": 1920,
+        "fileSize3Y": 48,
+        "fileSize8X": 7114,
+        "fileSize8Y": 178,
+        "fileSize500X": 500,
+        "fileSize500Y": 13,
+        "fileSize740X": 740,
+        "fileSize740Y": 19,
+        "comment": null,
+        "fileEdit": null,
+        "imageSetting": null,
+        "fileW": "b_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+        "fileH": "b_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+        "fileW4000": "4k_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+        "fileH4000": "4k_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+        "commentSchemeImage": null,
+        "variantImage": null,
+        "fileRotation": {
+          "_150_x": {
+            "w": {
+              "name": "_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "x": 120,
+              "y": 3
+            },
+            "h": {
+              "name": "_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "x": 3,
+              "y": 120
+            }
+          },
+          "_150_X": {
+            "w": {
+              "name": "v_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "x": 120,
+              "y": 3
+            },
+            "h": {
+              "name": "v_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "x": 3,
+              "y": 120
+            }
+          },
+          "x_500_x": {
+            "w": {
+              "name": "a_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "x": 500,
+              "y": 13
+            },
+            "h": {
+              "name": "a_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "x": 13,
+              "y": 500
+            }
+          },
+          "x_740_x": {
+            "w": {
+              "name": "c_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "x": 740,
+              "y": 19
+            },
+            "h": {
+              "name": "c_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "x": 19,
+              "y": 740
+            }
+          },
+          "x_1000_x": {
+            "w": {
+              "name": "b_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "x": 1920,
+              "y": 48
+            },
+            "h": {
+              "name": "b_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "x": 48,
+              "y": 1920
+            }
+          },
+          "x_3840_x": {
+            "w": {
+              "name": "4k_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rw.jpg",
+              "x": 7114,
+              "y": 178
+            },
+            "h": {
+              "name": "4k_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675_rh.jpg",
+              "x": 178,
+              "y": 7114
+            }
+          }
+        },
+        "rotate": null,
+        "bigSizeScheme": null
+      },
+      "delivery": {
+        "id": 1
+      },
+      "type": {
+        "id": 44,
+        "alias": "left_menu_corner_element",
+        "name": "L-element"
+      },
+      "measure": {
+        "id": 2,
+        "alias": "measure_unit",
+        "name": "pc"
+      },
+      "material": {
+        "id": 5,
+        "alias": "left_menu_ceramics",
+        "name": "Ceramics"
+      },
+      "surface": {
+        "id": 1,
+        "alias": "left_menu_glossy",
+        "name": "glossy"
+      },
+      "factoryColors": [
+        {
+          "id": 963,
+          "name": "Camoscio"
+        }
+      ],
+      "textures": [],
+      "styles": [],
+      "shape": {
+        "id": 4,
+        "alias": "Rectangle"
+      },
+      "motivs": [],
+      "measurementSize": {
+        "id": 6,
+        "alias": "left_menu_LengthXWidth"
+      },
+      "priceDiscounts": [
+        {
+          "id": 95218,
+          "amount": 1200,
+          "amountFt": 12916.69,
+          "fold": false,
+          "priceUSD": 13.25,
+          "priceFqUSD": 13.25,
+          "priceUSE": 11.65,
+          "priceFqUSE": 11.65
+        }
+      ],
+      "collection": {
+        "id": 3259870,
+        "url": "arteseta",
+        "name": "Arteseta",
+        "alternateName": "Arteseta",
+        "status": 1,
+        "process": true,
+        "settings": null,
+        "prMinUSD": 82.6,
+        "prMinUSE": 72.99,
+        "prMinFUSD": 7.69,
+        "prMinFUSE": 6.79,
+        "factory": {
+          "id": 975,
+          "url": "marca-corona",
+          "name": "Marca Corona",
+          "alternateName": "Ceramiche Marca Corona",
+          "status": 1,
+          "suspended": false,
+          "statedAt": {
+            "date": "2021-06-16 12:23:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "country": {
+            "id": 380,
+            "code": "IT",
+            "alias": "country.it"
+          }
+        },
+        "a_version": true,
+        "priceSort": 7.69,
+        "priceSortCur": "$",
+        "priceSortMea": "ft"
+      },
+      "interiors": [],
+      "colors": [
+        {
+          "id": 6,
+          "name": "Серый",
+          "alias": "left_menu_color_grey"
+        }
+      ],
+      "alt": "K280_ARTESETA CAMOSCIO SPIGOLO Marca Corona Arteseta",
+      "sizeGbX": 0.47,
+      "sizeGbY": 19.69,
+      "sizeGbZ": 0,
+      "importantInfo": null,
+      "discountsAmount": [
+        {
+          "priceFl": 14.69,
+          "price": "14.69",
+          "startAmountRaw": 0,
+          "startAmount": "0",
+          "woVATPrice": 14.69,
+          "fold": 0,
+          "endAmount": 1200,
+          "endAmountRaw": 1200
+        },
+        {
+          "priceFl": 13.25,
+          "price": "13.25",
+          "startAmountRaw": 1200,
+          "startAmount": "1,200",
+          "woVATPrice": 13.25,
+          "fold": false
+        }
+      ],
+      "numberElement": 3,
+      "in_stock": "In stock in Italy",
+      "sampleData": null,
+      "addUrl": "/en-us/buy-order/list/1451883727",
+      "sampleUrl": "/en-us/json/sample/С000628675",
+      "collectionUrl": "/en-us/tile/marca-corona/arteseta",
+      "factoryUrl": "/en-us/catalogue/marca-corona",
+      "prc": "14.69",
+      "mea": "pc",
+      "amount": 6,
+      "orders": false,
+      "ssLink": "/en-us/tile/marca-corona/arteseta/a/k280-arteseta-camoscio-spigolo-s000628675",
+      "pathImg": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali/b_marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675.webp?64",
+      "imageZipLink": null,
+      "artImgSrc": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali/marca-corona-arteseta-k280_arteseta_camoscio_spigolo_s000628675.webp?64",
+      "width": 200,
+      "height": 5,
+      "imageSettingIcon": null,
+      "hrefSlider": "/en-us/tile/marca-corona/arteseta/a/k280-arteseta-camoscio-spigolo-s000628675",
+      "mss": "0.47\" × 19.69\"",
+      "prx": [
+        21.131999999999998,
+        19.0188
+      ],
+      "rotation": null,
+      "bigSizeScheme": false,
+      "title": "L-element, grey 1x50 (Italy). Reviews. Samples to the USA in 48h",
+      "description": "Online calculation of shipping expenses & time to the USA. Courier delivery of samples in 48h. Customer reviews. Best prices",
+      "downloadArticleImageHelpTooltip": "Download high-resolution image"
+    },
+    "1451883703": {
+      "id": 1451883703,
+      "code": "С000628667",
+      "name": "K271_ARTESETA COBALTO RIGA",
+      "notSample": null,
+      "alternateName": "K271_ARTESETA COBALTO RIGA",
+      "file": "marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667.webp",
+      "expressSample": null,
+      "variantImage": null,
+      "sizeX": 50,
+      "sizeY": 120,
+      "sizeZ": 0,
+      "fileSize2X": 83,
+      "fileSize2Y": 199,
+      "fileSize3X": 800,
+      "fileSize3Y": 1920,
+      "fileSize8X": 2961,
+      "fileSize8Y": 7106,
+      "typeConstraint": 0,
+      "packagingCount": 1.8,
+      "packagingCountFt": 19.37504,
+      "packagingCountPC": 3,
+      "pricePrx": 8.95,
+      "pallet": 54,
+      "palletFt": 581.25116,
+      "minOrder": 0,
+      "m2OnePs": 0.6,
+      "multiplePallet": 1,
+      "url": "k271-arteseta-cobalto-riga-s000628667",
+      "backgroundWhite": null,
+      "borderGrey": null,
+      "imageSetting": null,
+      "fileW": "b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+      "fileH": "b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+      "fileW4000": "4k_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+      "fileH4000": "4k_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+      "scheme": false,
+      "rotate": true,
+      "fileRotation": {
+        "_150_x": {
+          "w": {
+            "name": "_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "x": 149,
+            "y": 62
+          },
+          "h": {
+            "name": "_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "x": 62,
+            "y": 149
+          }
+        },
+        "_150_X": {
+          "w": {
+            "name": "v_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "x": 149,
+            "y": 62
+          },
+          "h": {
+            "name": "v_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "x": 62,
+            "y": 149
+          }
+        },
+        "x_500_x": {
+          "w": {
+            "name": "a_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "x": 499,
+            "y": 208
+          },
+          "h": {
+            "name": "a_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "x": 208,
+            "y": 499
+          }
+        },
+        "x_740_x": {
+          "w": {
+            "name": "c_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "x": 739,
+            "y": 308
+          },
+          "h": {
+            "name": "c_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "x": 308,
+            "y": 739
+          }
+        },
+        "x_1000_x": {
+          "w": {
+            "name": "b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "x": 1920,
+            "y": 800
+          },
+          "h": {
+            "name": "b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "x": 800,
+            "y": 1920
+          }
+        },
+        "x_3840_x": {
+          "w": {
+            "name": "4k_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "x": 7106,
+            "y": 2961
+          },
+          "h": {
+            "name": "4k_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "x": 2961,
+            "y": 7106
+          }
+        }
+      },
+      "fileEdit": null,
+      "commentSchemeImage": null,
+      "priceUSD": 87.5,
+      "priceMqUSD": 87.12,
+      "priceFqUSD": 8.09,
+      "priceUSE": 76.99,
+      "priceMqUSE": 76.99,
+      "descriptions": [],
+      "details": {
+        "id": 659995924,
+        "file": "marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667.webp",
+        "gtin": null,
+        "fileSize1X": 62,
+        "fileSize1Y": 149,
+        "fileSize2X": 83,
+        "fileSize2Y": 199,
+        "fileSize3X": 800,
+        "fileSize3Y": 1920,
+        "fileSize8X": 2961,
+        "fileSize8Y": 7106,
+        "fileSize500X": 208,
+        "fileSize500Y": 499,
+        "fileSize740X": 308,
+        "fileSize740Y": 739,
+        "comment": null,
+        "fileEdit": null,
+        "imageSetting": null,
+        "fileW": "b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+        "fileH": "b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+        "fileW4000": "4k_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+        "fileH4000": "4k_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+        "commentSchemeImage": null,
+        "variantImage": null,
+        "fileRotation": {
+          "_150_x": {
+            "w": {
+              "name": "_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "x": 149,
+              "y": 62
+            },
+            "h": {
+              "name": "_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "x": 62,
+              "y": 149
+            }
+          },
+          "_150_X": {
+            "w": {
+              "name": "v_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "x": 149,
+              "y": 62
+            },
+            "h": {
+              "name": "v_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "x": 62,
+              "y": 149
+            }
+          },
+          "x_500_x": {
+            "w": {
+              "name": "a_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "x": 499,
+              "y": 208
+            },
+            "h": {
+              "name": "a_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "x": 208,
+              "y": 499
+            }
+          },
+          "x_740_x": {
+            "w": {
+              "name": "c_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "x": 739,
+              "y": 308
+            },
+            "h": {
+              "name": "c_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "x": 308,
+              "y": 739
+            }
+          },
+          "x_1000_x": {
+            "w": {
+              "name": "b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "x": 1920,
+              "y": 800
+            },
+            "h": {
+              "name": "b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "x": 800,
+              "y": 1920
+            }
+          },
+          "x_3840_x": {
+            "w": {
+              "name": "4k_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+              "x": 7106,
+              "y": 2961
+            },
+            "h": {
+              "name": "4k_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+              "x": 2961,
+              "y": 7106
+            }
+          }
+        },
+        "rotate": true,
+        "bigSizeScheme": null
+      },
+      "delivery": {
+        "id": 1
+      },
+      "type": {
+        "id": 113,
+        "alias": "left_menu_background_tile",
+        "name": "Background tile"
+      },
+      "measure": {
+        "id": 1,
+        "alias": "measure_mq",
+        "name": "m²"
+      },
+      "material": {
+        "id": 5,
+        "alias": "left_menu_ceramics",
+        "name": "Ceramics"
+      },
+      "surface": {
+        "id": 1,
+        "alias": "left_menu_glossy",
+        "name": "glossy"
+      },
+      "factoryColors": [
+        {
+          "id": 99,
+          "name": "Cobalto"
+        }
+      ],
+      "textures": [],
+      "styles": [],
+      "shape": {
+        "id": 4,
+        "alias": "Rectangle"
+      },
+      "motivs": [
+        {
+          "id": 10,
+          "alias": "left_menu_strip",
+          "name": "Полоска"
+        }
+      ],
+      "measurementSize": {
+        "id": 6,
+        "alias": "left_menu_LengthXWidth"
+      },
+      "priceDiscounts": [
+        {
+          "id": 70261,
+          "amount": 54,
+          "amountFt": 581.25,
+          "fold": false,
+          "priceUSD": 78.99,
+          "priceFqUSD": 7.35,
+          "priceUSE": 69.5,
+          "priceFqUSE": 6.45
+        }
+      ],
+      "collection": {
+        "id": 3259870,
+        "url": "arteseta",
+        "name": "Arteseta",
+        "alternateName": "Arteseta",
+        "status": 1,
+        "process": true,
+        "settings": null,
+        "prMinUSD": 82.6,
+        "prMinUSE": 72.99,
+        "prMinFUSD": 7.69,
+        "prMinFUSE": 6.79,
+        "factory": {
+          "id": 975,
+          "url": "marca-corona",
+          "name": "Marca Corona",
+          "alternateName": "Ceramiche Marca Corona",
+          "status": 1,
+          "suspended": false,
+          "statedAt": {
+            "date": "2021-06-16 12:23:37.000000",
+            "timezone_type": 3,
+            "timezone": "UTC"
+          },
+          "country": {
+            "id": 380,
+            "code": "IT",
+            "alias": "country.it"
+          }
+        },
+        "a_version": true,
+        "priceSort": 7.69,
+        "priceSortCur": "$",
+        "priceSortMea": "ft"
+      },
+      "interiors": [
+        {
+          "id": 299350,
+          "file": "marca-corona-arteseta-5.jpg",
+          "name": "marca-corona-arteseta-5",
+          "status": 1,
+          "url": "/en-us/tile/marca-corona/arteseta/i/marca-corona-arteseta-5",
+          "fileSizeX": 698,
+          "fileSizeY": 900,
+          "ideasCount": 0,
+          "styles": [],
+          "textures": [],
+          "collection": {
+            "id": 3259870,
+            "url": "arteseta",
+            "name": "Arteseta",
+            "alternateName": "Arteseta",
+            "status": 1,
+            "process": true,
+            "rating": 28,
+            "settings": null,
+            "accessible": null,
+            "prMinUSD": 82.6,
+            "prMinUSE": 72.99,
+            "prMinFUSD": 7.69,
+            "prMinFUSE": 6.79,
+            "factory": {
+              "id": 975,
+              "url": "marca-corona",
+              "name": "Marca Corona",
+              "alternateName": "Ceramiche Marca Corona",
+              "suspended": false,
+              "status": 1,
+              "statedAt": {
+                "date": "2021-06-16 12:23:37.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+              },
+              "country": {
+                "id": 380,
+                "code": "IT",
+                "alias": "country.it",
+                "name": "Италия"
+              }
+            }
+          },
+          "inIdeaBook": false,
+          "paths": {
+            "preview": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/a_marca-corona-arteseta-5.webp?64",
+            "preview_400": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/z_marca-corona-arteseta-5.webp?64",
+            "hd": null,
+            "shd_1080": null,
+            "s_900": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/marca-corona-arteseta-5.jpg?64"
+          }
+        },
+        {
+          "id": 299353,
+          "file": "marca-corona-arteseta-6.jpg",
+          "name": "marca-corona-arteseta-6",
+          "status": 1,
+          "url": "/en-us/tile/marca-corona/arteseta/i/marca-corona-arteseta-6",
+          "fileSizeX": 600,
+          "fileSizeY": 899,
+          "ideasCount": 1,
+          "styles": [],
+          "textures": [],
+          "collection": {
+            "id": 3259870,
+            "url": "arteseta",
+            "name": "Arteseta",
+            "alternateName": "Arteseta",
+            "status": 1,
+            "process": true,
+            "rating": 28,
+            "settings": null,
+            "accessible": null,
+            "prMinUSD": 82.6,
+            "prMinUSE": 72.99,
+            "prMinFUSD": 7.69,
+            "prMinFUSE": 6.79,
+            "factory": {
+              "id": 975,
+              "url": "marca-corona",
+              "name": "Marca Corona",
+              "alternateName": "Ceramiche Marca Corona",
+              "suspended": false,
+              "status": 1,
+              "statedAt": {
+                "date": "2021-06-16 12:23:37.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+              },
+              "country": {
+                "id": 380,
+                "code": "IT",
+                "alias": "country.it",
+                "name": "Италия"
+              }
+            }
+          },
+          "inIdeaBook": false,
+          "paths": {
+            "preview": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/a_marca-corona-arteseta-6.webp?64",
+            "preview_400": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/z_marca-corona-arteseta-6.webp?64",
+            "hd": null,
+            "shd_1080": null,
+            "s_900": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/marca-corona-arteseta-6.jpg?64"
+          }
+        },
+        {
+          "id": 299356,
+          "file": "marca-corona-arteseta-7.jpg",
+          "name": "marca-corona-arteseta-7",
+          "status": 1,
+          "url": "/en-us/tile/marca-corona/arteseta/i/marca-corona-arteseta-7",
+          "fileSizeX": 636,
+          "fileSizeY": 899,
+          "ideasCount": 1,
+          "styles": [],
+          "textures": [],
+          "collection": {
+            "id": 3259870,
+            "url": "arteseta",
+            "name": "Arteseta",
+            "alternateName": "Arteseta",
+            "status": 1,
+            "process": true,
+            "rating": 28,
+            "settings": null,
+            "accessible": null,
+            "prMinUSD": 82.6,
+            "prMinUSE": 72.99,
+            "prMinFUSD": 7.69,
+            "prMinFUSE": 6.79,
+            "factory": {
+              "id": 975,
+              "url": "marca-corona",
+              "name": "Marca Corona",
+              "alternateName": "Ceramiche Marca Corona",
+              "suspended": false,
+              "status": 1,
+              "statedAt": {
+                "date": "2021-06-16 12:23:37.000000",
+                "timezone_type": 3,
+                "timezone": "UTC"
+              },
+              "country": {
+                "id": 380,
+                "code": "IT",
+                "alias": "country.it",
+                "name": "Италия"
+              }
+            }
+          },
+          "inIdeaBook": false,
+          "paths": {
+            "preview": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/a_marca-corona-arteseta-7.webp?64",
+            "preview_400": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/z_marca-corona-arteseta-7.webp?64",
+            "hd": null,
+            "shd_1080": null,
+            "s_900": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/ambienti/marca-corona-arteseta-7.jpg?64"
+          }
+        }
+      ],
+      "colors": [
+        {
+          "id": 4,
+          "name": "Синий",
+          "alias": "left_menu_color_blue"
+        }
+      ],
+      "alt": "K271_ARTESETA COBALTO RIGA Marca Corona Arteseta",
+      "sizeGbX": 19.69,
+      "sizeGbY": 47.24,
+      "sizeGbZ": 0,
+      "importantInfo": null,
+      "discountsAmount": [
+        {
+          "priceFl": 8.09,
+          "price": "8.09",
+          "startAmountRaw": 0,
+          "startAmount": "0",
+          "woVATPrice": 8.09,
+          "fold": 0,
+          "endAmount": 581.25,
+          "endAmountRaw": 581.25
+        },
+        {
+          "priceFl": 7.35,
+          "price": "7.35",
+          "startAmountRaw": 581.25,
+          "startAmount": "581.25",
+          "woVATPrice": 7.35,
+          "fold": false
+        }
+      ],
+      "numberElement": 4,
+      "in_stock": "In stock in Italy",
+      "sampleData": null,
+      "addUrl": "/en-us/buy-order/list/1451883703",
+      "sampleUrl": "/en-us/json/sample/С000628667",
+      "collectionUrl": "/en-us/tile/marca-corona/arteseta",
+      "factoryUrl": "/en-us/catalogue/marca-corona",
+      "prc": "8.09",
+      "mea": "ft²",
+      "amount": 19.37504,
+      "orders": false,
+      "ssLink": "/en-us/tile/marca-corona/arteseta/a/k271-arteseta-cobalto-riga-s000628667",
+      "pathImg": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali/b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667.webp?64",
+      "imageZipLink": null,
+      "artImgSrc": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali/marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667.webp?64",
+      "width": 83,
+      "height": 199,
+      "imageSettingIcon": null,
+      "hrefSlider": "/en-us/tile/marca-corona/arteseta/a/k271-arteseta-cobalto-riga-s000628667",
+      "mss": "19.69\" × 47.24\"",
+      "prx": [
+        10.739999999999998,
+        9.665999999999999
+      ],
+      "rotation": {
+        "_150_x": {
+          "w": {
+            "name": "_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "_150_X": {
+          "w": {
+            "name": "v_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "v_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_500_x": {
+          "w": {
+            "name": "a_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "a_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_740_x": {
+          "w": {
+            "name": "c_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "c_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_1000_x": {
+          "w": {
+            "name": "b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "b_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        },
+        "x_3840_x": {
+          "w": {
+            "name": "4k_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rw.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          },
+          "h": {
+            "name": "4k_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "preview": "p_marca-corona-arteseta-k271_arteseta_cobalto_riga_s000628667_rh.jpg",
+            "path": "https://img.tile.expert/img_lb/marca-corona/arteseta/per_sito/minimali"
+          }
+        }
+      },
+      "bigSizeScheme": false,
+      "title": "Navy blue tiles 50x120 (Italy). Reviews. Samples to the USA in 48h",
+      "description": "Online calculation of shipping expenses & time to the USA. Courier delivery of samples in 48h. Customer reviews. Best prices",
+      "downloadArticleImageHelpTooltip": "Download high-resolution image"
+    }
+  }
+}
