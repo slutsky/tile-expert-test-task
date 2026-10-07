@@ -7,11 +7,15 @@ namespace App\CatalogIntegration\Controller;
 use App\Catalog\ArticleGatewayInterface;
 use App\CatalogIntegration\Dto\ArticleDto;
 use App\CatalogIntegration\Dto\ArticleFilterDto;
+use Nelmio\ApiDocBundle\Attribute\Model;
+use OpenApi\Attributes as OA;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Attribute\MapQueryString;
 use Symfony\Component\Routing\Attribute\Route;
 
+#[OA\Tag(name: 'CatalogIntegration')]
 class TileController extends AbstractController
 {
     public function __construct(
@@ -19,8 +23,15 @@ class TileController extends AbstractController
     ) {
     }
 
-    #[Route(methods: 'GET', path: '/api/v1/tiles')]
-    public function getTilesByArticle(
+    #[Route(methods: 'GET', path: '/api/v1/articles/by-filter', format: 'json')]
+    #[OA\Response(
+        response: Response::HTTP_OK,
+        description: 'Get article',
+        content: new OA\JsonContent(
+            ref: new Model(type: ArticleDto::class),
+        )
+    )]
+    public function getArticle(
         #[MapQueryString]
         ArticleFilterDto $articleFilter,
     ): JsonResponse {
