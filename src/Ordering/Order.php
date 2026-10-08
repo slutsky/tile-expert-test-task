@@ -4,10 +4,11 @@ declare(strict_types=1);
 
 namespace App\Ordering;
 
+use App\OrderingPersistence\Repository\OrderRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity]
+#[ORM\Entity(repositoryClass: OrderRepository::class)]
 #[ORM\Table(name: 'orders')]
 #[ORM\Index(name: 'IDX_1', columns: ['delivery_country'])]
 #[ORM\Index(name: 'IDX_2', columns: ['user_id'])]
