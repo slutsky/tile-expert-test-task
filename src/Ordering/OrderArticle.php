@@ -91,4 +91,40 @@ class OrderArticle
         'comment' => 'Плитка специально для бассейна',
     ])]
     public private(set) bool $swimmingPool = false;
+
+    public function __construct(
+        int $id,
+        float $amount,
+        float $price,
+        float $weight,
+        float $packagingCount,
+        float $pallet,
+        float $packaging,
+        ?int $ordersId = null,
+        ?int $articleId = null,
+        ?float $priceEur = null,
+        ?string $currency = null,
+        ?string $measure = null,
+        ?\DateTimeImmutable $deliveryTimeMin = null,
+        ?\DateTimeImmutable $deliveryTimeMax = null,
+        ?int $multiplePallet = null,
+        bool $swimmingPool = false,
+    ) {
+        $this->id = $id;
+        $this->ordersId = $ordersId;
+        $this->articleId = $articleId;
+        $this->amount = $amount;
+        $this->price = $price;
+        $this->priceEur = $priceEur;
+        $this->currency = $currency;
+        $this->measure = $measure;
+        $this->deliveryTimeMin = $deliveryTimeMin;
+        $this->deliveryTimeMax = $deliveryTimeMax;
+        $this->weight = $weight;
+        $this->multiplePallet = $multiplePallet;
+        $this->packagingCount = $packagingCount;
+        $this->pallet = $pallet;
+        $this->packaging = $packaging;
+        $this->swimmingPool = $swimmingPool;
+    }
 }
