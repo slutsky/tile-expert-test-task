@@ -13,7 +13,6 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use Symfony\Contracts\HttpClient\ResponseInterface;
-use Symfony\Contracts\HttpClient\Exception\ExceptionInterface as HttpExceptionInterface;
 
 #[CoversClass(TileController::class)]
 #[CoversClass(ArticleFilterDto::class)]
@@ -34,7 +33,7 @@ class TileControllerTest extends WebTestCase
             ]),
         );
 
-        $client->jsonRequest('GET', '/api/v1/articles/by-filter?' . http_build_query([
+        $client->jsonRequest('GET', '/api/v1/articles/by-filter?'.http_build_query([
             'factory' => 'marca-corona',
             'collection' => 'arteseta',
             'article' => 'k263-arteseta-camoscio-s000628660',
@@ -60,7 +59,7 @@ class TileControllerTest extends WebTestCase
             ]),
         );
 
-        $client->jsonRequest('GET', '/api/v1/articles/by-filter?' . http_build_query([
+        $client->jsonRequest('GET', '/api/v1/articles/by-filter?'.http_build_query([
             'factory' => 'marca-corona',
             'collection' => 'arteseta',
             'article' => 'k263-arteseta-camoscio-s000628660',
