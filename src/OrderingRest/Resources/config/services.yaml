@@ -6,4 +6,4 @@ services:
 
     App\OrderingRest\:
         resource: '../../'
-        exclude: '../../Resources'
+        exclude: '../../{Dto,Resources}'

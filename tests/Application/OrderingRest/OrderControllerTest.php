@@ -4,17 +4,22 @@ declare(strict_types=1);
 
 namespace App\Tests\Application\OrderingRest;
 
+use App\Ordering\IntervalBy;
 use App\Ordering\Order;
 use App\OrderingPersistence\Factory\OrderFactory;
 use App\OrderingPersistence\Repository\OrderRepository;
 use App\OrderingPersistence\Story\OrderStory;
 use App\OrderingRest\Controller\OrderController;
+use App\OrderingRest\Dto\OrderCountFilterDto;
+use App\OrderingRest\Dto\PaginatedCountByPeriodDto;
 use PHPUnit\Framework\Attributes\CoversClass;
 use Symfony\Bundle\FrameworkBundle\KernelBrowser;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Zenstruck\Foundry\Attribute\WithStory;
 
 #[CoversClass(OrderController::class)]
+#[CoversClass(OrderCountFilterDto::class)]
+#[CoversClass(PaginatedCountByPeriodDto::class)]
 #[CoversClass(OrderRepository::class)]
 #[CoversClass(OrderFactory::class)]
 #[CoversClass(OrderStory::class)]
@@ -42,7 +47,11 @@ class OrderControllerTest extends WebTestCase
     #[WithStory(OrderStory::class)]
     public function testCount(): void
     {
-        $this->client->jsonRequest('GET', '/api/v1/orders/count');
+        $this->client->jsonRequest('GET', '/api/v1/orders/count?'.http_build_query([
+            'page' => 1,
+            'pageSize' => 2,
+            'intervalBy' => IntervalBy::Month->value,
+        ]));
 
         self::assertResponseIsSuccessful();
     }

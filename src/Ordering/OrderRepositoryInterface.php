@@ -6,5 +6,8 @@ namespace App\Ordering;
 
 interface OrderRepositoryInterface
 {
-    public function count(): int;
+    /**
+     * @return CountByPeriod[]
+     */
+    public function countByInterval(IntervalBy $intervalBy, int $limit, int $offset): array;
 }
