@@ -14,7 +14,7 @@ down:
 	@${DOCKER_COMPOSE} down
 
 phpstan:
-	@${DOCKER_COMPOSE} exec php bin/phpstan
+	@${DOCKER_COMPOSE} exec php bin/phpstan --memory-limit=256M
 
 cscheck:
 	@${DOCKER_COMPOSE} exec php bin/php-cs-fixer check
