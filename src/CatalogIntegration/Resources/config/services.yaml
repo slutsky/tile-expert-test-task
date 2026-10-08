@@ -6,7 +6,7 @@ services:
 
     App\CatalogIntegration\:
         resource: '../../'
-        exclude: '../../{Dto,Resources}'
+        exclude: '../../{Dto,Resources,Exception}'
 
     app.catalog_integration.article_gateway:
         class: App\CatalogIntegration\Service\ArticleGateway
