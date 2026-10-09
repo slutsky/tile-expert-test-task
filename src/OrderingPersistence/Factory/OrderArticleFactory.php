@@ -4,17 +4,17 @@ declare(strict_types=1);
 
 namespace App\OrderingPersistence\Factory;
 
-use App\Ordering\Order;
+use App\Ordering\OrderArticle;
 use Zenstruck\Foundry\Persistence\PersistentObjectFactory;
 
 /**
- * @extends PersistentObjectFactory<Order>
+ * @extends PersistentObjectFactory<OrderArticle>
  */
 final class OrderArticleFactory extends PersistentObjectFactory
 {
     public static function class(): string
     {
-        return Order::class;
+        return OrderArticle::class;
     }
 
     protected function defaults(): array|callable

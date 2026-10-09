@@ -5,9 +5,6 @@ declare(strict_types=1);
 namespace App\Tests\Application\OrderingRest;
 
 use App\Ordering\IntervalBy;
-use App\Ordering\Order;
-use App\OrderingPersistence\Factory\OrderFactory;
-use App\OrderingPersistence\Repository\OrderRepository;
 use App\OrderingPersistence\Story\OrderStory;
 use App\OrderingRest\Controller\OrderController;
 use App\OrderingRest\Dto\OrderCountFilterDto;
@@ -20,10 +17,6 @@ use Zenstruck\Foundry\Attribute\WithStory;
 #[CoversClass(OrderController::class)]
 #[CoversClass(OrderCountFilterDto::class)]
 #[CoversClass(PaginatedCountByPeriodDto::class)]
-#[CoversClass(OrderRepository::class)]
-#[CoversClass(OrderFactory::class)]
-#[CoversClass(OrderStory::class)]
-#[CoversClass(Order::class)]
 class OrderControllerTest extends WebTestCase
 {
     private KernelBrowser $client;

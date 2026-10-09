@@ -103,4 +103,19 @@ final class OrderFactory extends PersistentObjectFactory
             'deliveryApartmentOffice' => mb_strcut(self::faker()->address(), 0, 30),
         ];
     }
+
+    public function withCreateDate(\DateTimeImmutable $createDate, bool $randomTime = false): self
+    {
+        if ($randomTime) {
+            $with = static fn () => ['createDate' => $createDate->setTime(
+                self::faker()->numberBetween(0, 23),
+                self::faker()->numberBetween(0, 59),
+                self::faker()->numberBetween(0, 59),
+            )];
+        } else {
+            $with = ['createDate' => $createDate];
+        }
+
+        return $this->with($with);
+    }
 }

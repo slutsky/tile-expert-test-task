@@ -19,7 +19,7 @@ class OrderArticle
     public private(set) int $id;
 
     #[ORM\Column(name: 'orders_id', nullable: true)]
-    public private(set) ?int $ordersId = null;
+    public private(set) ?int $orderId = null;
 
     #[ORM\Column(name: 'article_id', nullable: true, options: [
         'comment' => 'ID коллекции',
@@ -93,14 +93,13 @@ class OrderArticle
     public private(set) bool $swimmingPool = false;
 
     public function __construct(
-        int $id,
         float $amount,
         float $price,
         float $weight,
         float $packagingCount,
         float $pallet,
         float $packaging,
-        ?int $ordersId = null,
+        ?int $orderId = null,
         ?int $articleId = null,
         ?float $priceEur = null,
         ?string $currency = null,
@@ -110,8 +109,7 @@ class OrderArticle
         ?int $multiplePallet = null,
         bool $swimmingPool = false,
     ) {
-        $this->id = $id;
-        $this->ordersId = $ordersId;
+        $this->orderId = $orderId;
         $this->articleId = $articleId;
         $this->amount = $amount;
         $this->price = $price;
