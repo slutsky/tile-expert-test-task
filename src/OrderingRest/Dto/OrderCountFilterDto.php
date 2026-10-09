@@ -21,9 +21,9 @@ final class OrderCountFilterDto
     }
 
     public function __construct(
-        public private(set) int $page = 1,
-        public private(set) int $pageSize = 10,
-        public private(set) IntervalBy $intervalBy = IntervalBy::Date,
+        public readonly int $page = 1,
+        public readonly int $pageSize = 10,
+        public readonly IntervalBy $intervalBy = IntervalBy::Date,
     ) {
     }
 

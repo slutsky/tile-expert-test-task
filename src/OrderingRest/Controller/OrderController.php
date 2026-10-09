@@ -31,8 +31,13 @@ final class OrderController extends AbstractController
             ref: new Model(type: PaginatedCountByPeriodDto::class),
         ),
     )]
+    #[OA\Response(
+        response: Response::HTTP_BAD_REQUEST,
+        description: 'Validation exception',
+        content: new OA\JsonContent(ref: '#/components/schemas/ValidationExceptionResponse'),
+    )]
     public function countOrders(
-        #[MapQueryString]
+        #[MapQueryString(validationFailedStatusCode: Response::HTTP_BAD_REQUEST)]
         OrderCountFilterDto $filter,
     ): JsonResponse {
         $count = $this->orderRepository->count();

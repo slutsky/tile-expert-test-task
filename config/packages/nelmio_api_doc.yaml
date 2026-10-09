@@ -18,6 +18,35 @@ nelmio_api_doc:
                         detail:
                             type: string
 
+                ValidationExceptionResponse:
+                    type: object
+                    properties:
+                        type:
+                            type: string
+                        title:
+                            type: string
+                        status:
+                            type: number
+                        detail:
+                            type: string
+                        violations:
+                            type: array
+                            items:
+                                type: object
+                                properties:
+                                    propertyPath:
+                                        type: string
+                                        example: property
+                                    title:
+                                        type: string
+                                        example: Wrong property.
+                                    template:
+                                        type: string
+                                        example: template
+                                    parameters:
+                                        type: object
+                                        example: {"{{ key }}": "value"}
+
     areas: # to filter documented areas
         path_patterns:
             - ^/api(?!/doc$) # Accepts routes under /api except /api/doc

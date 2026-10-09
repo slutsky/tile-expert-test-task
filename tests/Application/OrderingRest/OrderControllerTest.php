@@ -12,6 +12,7 @@ use App\OrderingRest\Dto\PaginatedCountByPeriodDto;
 use PHPUnit\Framework\Attributes\CoversClass;
 use Symfony\Bundle\FrameworkBundle\KernelBrowser;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+use Symfony\Component\HttpFoundation\Response;
 use Zenstruck\Foundry\Attribute\WithStory;
 
 #[CoversClass(OrderController::class)]
@@ -47,5 +48,16 @@ class OrderControllerTest extends WebTestCase
         ]));
 
         self::assertResponseIsSuccessful();
+    }
+
+    public function testCountValidationProblem(): void
+    {
+        $this->client->jsonRequest('GET', '/api/v1/orders/count?'.http_build_query([
+            'page' => 'Wrong value',
+            'pageSize' => 'Wrong value',
+            'intervalBy' => 'Wrong value',
+        ]));
+
+        self::assertResponseStatusCodeSame(Response::HTTP_BAD_REQUEST);
     }
 }
