@@ -35,15 +35,14 @@ final class OrderController extends AbstractController
         #[MapQueryString]
         OrderCountFilterDto $filter,
     ): JsonResponse {
+        $count = $this->orderRepository->count();
+
         $elements = $this->orderRepository->countByInterval(
             $filter->intervalBy,
             $filter->limit,
             $filter->offset,
         );
 
-        return $this->json(new PaginatedCountByPeriodDto(
-            $elements,
-            $filter->page,
-        ));
+        return $this->json($filter->createPaginatedCount($elements, $count));
     }
 }
