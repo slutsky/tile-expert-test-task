@@ -10,6 +10,8 @@ class Kernel extends BaseKernel
     use MicroKernelTrait;
 
     /**
+     * @codeCoverageIgnore
+     *
      * @return list<string> An array of allowed values for APP_ENV
      */
     private function getAllowedEnvs(): array
