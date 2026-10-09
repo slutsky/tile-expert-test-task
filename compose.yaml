@@ -28,7 +28,7 @@ services:
 
 ###> doctrine/doctrine-bundle ###
   mariadb:
-    image: mariadb:13.0.2
+    build: ./docker/mariadb
     restart: unless-stopped
     ports:
       - ${MARIADB_PORT:-3306}:3306

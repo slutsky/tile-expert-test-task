@@ -17,9 +17,13 @@ doctrine:
             App:
                 type: attribute
                 is_bundle: false
-                dir: '%kernel.project_dir%/src/Entity'
-                prefix: 'App\Entity'
+                dir: '%kernel.project_dir%/src/Ordering'
+                prefix: 'App\Ordering'
                 alias: App
+        dql:
+            datetime_functions:
+                DATE_FORMAT: DoctrineExtensions\Query\Mysql\DateFormat
+                LAST_DAY: DoctrineExtensions\Query\Mysql\LastDay
 
 when@test:
     doctrine:
