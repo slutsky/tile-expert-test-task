@@ -33,7 +33,10 @@ class OrderRepositoryTest extends KernelTestCase
     {
         $container = self::getContainer();
 
-        $this->orderRepository = $container->get(OrderRepository::class);
+        $orderRepository = $container->get(OrderRepository::class);
+        self::assertInstanceOf(OrderRepository::class, $orderRepository);
+
+        $this->orderRepository = $orderRepository;
 
         parent::setUp();
     }

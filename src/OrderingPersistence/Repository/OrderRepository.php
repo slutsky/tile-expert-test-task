@@ -10,6 +10,7 @@ use App\Ordering\Order;
 use App\Ordering\OrderRepositoryInterface;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
+use Symfony\Component\Clock\DatePoint;
 
 /**
  * @extends ServiceEntityRepository<Order>
@@ -56,8 +57,8 @@ final class OrderRepository extends ServiceEntityRepository implements OrderRepo
 
         return array_map(
             static fn ($interval) => new CountByPeriod(
-                \DateTimeImmutable::createFromFormat('Y-m-d', $interval['fr']),
-                \DateTimeImmutable::createFromFormat('Y-m-d', $interval['to']),
+                DatePoint::createFromFormat('Y-m-d', $interval['fr']),
+                DatePoint::createFromFormat('Y-m-d', $interval['to']),
                 $interval['ct'],
             ),
             $result,
