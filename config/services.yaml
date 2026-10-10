@@ -7,6 +7,8 @@ imports:
   - '../src/CatalogIntegration/Resources/config/services.yaml'
   - '../src/OrderingPersistence/Resources/config/services.yaml'
   - '../src/OrderingRest/Resources/config/services.yaml'
+  - '../src/OrderingSoap/Resources/config/services.yaml'
+  - '../src/Soap/Resources/config/services.yaml'
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # https://symfony.com/doc/current/best_practices.html#use-parameters-for-application-configuration

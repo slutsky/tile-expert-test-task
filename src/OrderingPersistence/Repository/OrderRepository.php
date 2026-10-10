@@ -7,6 +7,7 @@ namespace App\OrderingPersistence\Repository;
 use App\Ordering\CountByPeriod;
 use App\Ordering\IntervalBy;
 use App\Ordering\Order;
+use App\Ordering\OrderNotFoundException;
 use App\Ordering\OrderRepositoryInterface;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
@@ -20,6 +21,17 @@ final class OrderRepository extends ServiceEntityRepository implements OrderRepo
     public function __construct(ManagerRegistry $registry)
     {
         parent::__construct($registry, Order::class);
+    }
+
+    public function getById(int $orderId): Order
+    {
+        $order = $this->find($orderId);
+
+        if (null === $order) {
+            throw OrderNotFoundException::create();
+        }
+
+        return $order;
     }
 
     /**
@@ -63,5 +75,10 @@ final class OrderRepository extends ServiceEntityRepository implements OrderRepo
             ),
             $result,
         );
+    }
+
+    public function add(Order $order): void
+    {
+        $this->getEntityManager()->persist($order);
     }
 }

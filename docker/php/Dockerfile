@@ -3,6 +3,8 @@ FROM php:8.4-fpm-alpine3.24
 ARG USER_ID=1000
 
 ENV PHP_OPCACHE_VALIDATE_TIMESTAMPS=0
+ENV PHP_SOAP_WSDL_CACHE_ENABLED=0
+ENV PHP_SOAP_WSDL_CACHE_TTL=86400
 
 COPY --from=composer:2.10.3 /usr/bin/composer /usr/bin/composer
 COPY --from=gordalina/cachetool:9.2.1 /usr/local/bin/cachetool /usr/bin/cachetool
@@ -28,6 +30,11 @@ RUN apk add --no-cache --virtual .build-deps \
         echo 'opcache.max_accelerated_files=20000';\
         echo 'opcache.validate_timestamps=${PHP_OPCACHE_VALIDATE_TIMESTAMPS:-0}';\
     } > ${PHP_INI_DIR}/conf.d/docker-php-ext-opcache.ini\
+    && {\
+        echo 'extension=soap';\
+        echo 'soap.wsdl_cache_enabled=${PHP_SOAP_WSDL_CACHE_ENABLED:-1}';\
+        echo 'soap.wsdl_cache_ttl=${PHP_SOAP_WSDL_CACHE_TTL:-86400}';\
+    } > ${PHP_INI_DIR}/conf.d/docker-php-ext-soap.ini\
     && apk add --no-cache shadow \
     && usermod -u ${USER_ID} www-data \
     && apk del shadow

@@ -20,6 +20,7 @@ services:
       XDEBUG_MODE: develop,debug
       XDEBUG_CONFIG: client_host=host.docker.internal
       PHP_OPCACHE_VALIDATE_TIMESTAMPS: 1
+      PHP_SOAP_WSDL_CACHE_ENABLED: 0
     depends_on:
       mariadb:
         condition: service_healthy
