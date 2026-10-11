@@ -51,6 +51,7 @@ final class OrderController extends AbstractController
         $soapServer
             ->setClassmap([
                 'Order' => \App\OrderingSoap\Dto\Order::class,
+                'OrderCreate' => \App\OrderingSoap\Dto\OrderCreate::class,
                 'OrderUpdate' => \App\OrderingSoap\Dto\OrderUpdate::class,
             ])
             ->setClass(OrderService::class)

@@ -13,7 +13,7 @@ namespace App\OrderingSoap\Dto;
 
 use App\Ordering\Order as OrderEntity;
 
-class Order extends OrderUpdate
+class Order extends OrderBase
 {
     /**
      * @var int

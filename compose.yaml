@@ -7,6 +7,12 @@ services:
       - .:/var/www/html:rw
     depends_on:
       - php
+      - wsdl-web
+
+  wsdl-web:
+    build: ./docker/wsdl-web
+    environment:
+      WSDL_DEFAULT: /soap/v1/orders?wsdl
 
   php:
     build:

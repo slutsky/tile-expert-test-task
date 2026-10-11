@@ -1,0 +1,18 @@
+server {
+    # Default port for unprivileged image
+    listen 8080;
+
+    location / {
+        if ($args = "") {
+            return 302 ?url=${WSDL_DEFAULT};
+        }
+
+        root   /usr/share/nginx/html;
+        index  index.html index.htm;
+    }
+
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   /usr/share/nginx/html;
+    }
+}
