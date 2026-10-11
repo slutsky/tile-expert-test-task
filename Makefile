@@ -23,10 +23,10 @@ csfix:
 	@${DOCKER_COMPOSE} exec php bin/php-cs-fixer fix
 
 test:
-	@${DOCKER_COMPOSE} exec php bin/phpunit --display-all-issues
+	@${DOCKER_COMPOSE} exec php bin/phpunit --display-all-issues $(c)
 
 test-trigger:
-	@${DOCKER_COMPOSE} exec --env XDEBUG_TRIGGER=1 php bin/phpunit
+	@${DOCKER_COMPOSE} exec --env XDEBUG_TRIGGER=1 php bin/phpunit $(c)
 
 cover:
 	@${DOCKER_COMPOSE} exec --env XDEBUG_MODE=coverage php \

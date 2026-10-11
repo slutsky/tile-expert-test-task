@@ -238,11 +238,9 @@ class OrderBase
      *
      * This property contains quick fix to can get example request from
      * wsdl-web. As default laminas/soap no advanced validation. Better
-     * to throws `\SoapFault` or implement custom types with restrictions.
+     * to throws exception or implement custom types with restrictions.
      *
      * @var string
-     *
-     * @see \SoapFault
      */
     public protected(set) string $locale = '' {
         set => mb_strcut($value, 0, 5);
@@ -258,11 +256,9 @@ class OrderBase
      *
      * This property contains quick fix to can get example request from
      * wsdl-web. As default laminas/soap no advanced validation. Better
-     * to throws `\SoapFault` or implement custom types with restrictions.
+     * to throws exception or implement custom types with restrictions.
      *
      * @var string
-     *
-     * @see \SoapFault
      */
     public protected(set) string $currency = 'EUR' {
         set => mb_strcut($value, 0, 3);
@@ -273,11 +269,9 @@ class OrderBase
      *
      * This property contains quick fix to can get example request from
      * wsdl-web. As default laminas/soap no advanced validation. Better
-     * to throws `\SoapFault` or implement custom types with restrictions.
+     * to throws exception or implement custom types with restrictions.
      *
      * @var string
-     *
-     * @see \SoapFault
      */
     public protected(set) string $measure = 'm' {
         set => mb_strcut($value, 0, 3);

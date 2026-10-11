@@ -18,6 +18,7 @@ class SoapServerFactory
         $soapServer = new Server($wsdlPath);
 
         $soapServer
+            ->setDebugMode(true)
             ->setTypemap($this->chainType->createTypeMap())
             ->setReturnResponse(true);
 

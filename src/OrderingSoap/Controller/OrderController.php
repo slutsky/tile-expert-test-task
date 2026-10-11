@@ -37,18 +37,15 @@ final class OrderController extends AbstractController
             ->generate();
 
         if ($request->query->has('wsdl')) {
-            $response = new Response();
-            $response->headers->set('Content-Type', 'application/wsdl+xml; charset=utf-8');
-            $response->setContent($wsdl->toXML());
-
-            return $response;
+            return new Response($wsdl->toXML(), Response::HTTP_OK, [
+                'Content-Type' => 'application/wsdl+xml; charset=utf-8',
+            ]);
         }
 
         // @phpstan-ignore-next-line Error in laminas/laminas-soap annotations
         $wsdl->dump(self::WSDL_PATH);
 
-        $soapServer = $this->soapServerFactory->create(self::WSDL_PATH);
-        $soapServer
+        $soapServer = $this->soapServerFactory->create(self::WSDL_PATH)
             ->setClassmap([
                 'Order' => \App\OrderingSoap\Dto\Order::class,
                 'OrderCreate' => \App\OrderingSoap\Dto\OrderCreate::class,
@@ -57,16 +54,22 @@ final class OrderController extends AbstractController
             ->setClass(OrderService::class)
             ->setObject($this->ordering);
 
-        /** @var \SoapFault|string $content Error in laminas/laminas-soap annotations */
-        $content = $soapServer->handle();
-        if ($content instanceof \SoapFault) {
-            $content = $this->faultContentGenerator->generate($content);
+        $statusCode = Response::HTTP_OK;
+        $requestContent = $request->getContent();
+        if ('' === $requestContent) {
+            $content = new \SoapFault('Server', 'Request body must be not empty.');
+        } else {
+            /** @var \SoapFault|string $content Error in laminas/laminas-soap annotations */
+            $content = $soapServer->handle($requestContent);
         }
 
-        $response = new Response();
-        $response->headers->set('Content-Type', 'application/soap+xml; charset=utf-8');
-        $response->setContent($content);
+        if ($content instanceof \SoapFault) {
+            $content = $this->faultContentGenerator->generate($content);
+            $statusCode = Response::HTTP_INTERNAL_SERVER_ERROR;
+        }
 
-        return $response;
+        return new Response($content, $statusCode, [
+            'Content-Type' => 'application/soap+xml; charset=utf-8',
+        ]);
     }
 }

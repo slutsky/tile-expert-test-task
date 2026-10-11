@@ -12,7 +12,6 @@ declare(strict_types=1);
 namespace App\OrderingSoap\Service;
 
 use App\Ordering;
-use App\Ordering\OrderNotFoundException;
 use App\OrderingSoap\Dto\Order;
 use App\OrderingSoap\Dto\OrderCreate;
 use App\OrderingSoap\Dto\OrderUpdate;
@@ -115,17 +114,14 @@ class OrderService
      *
      * @return \App\OrderingSoap\Dto\Order
      *
-     * @throws \SoapFault
+     * @throws \App\Ordering\OrderNotFoundException
      */
     public function updateOrder(OrderUpdate $orderUpdate): Order
     {
-        try {
-            $order = $this->orderRepository->getById($orderUpdate->id);
-        } catch (OrderNotFoundException $exception) {
-            throw new \SoapFault('Server', $exception->getMessage());
-        }
+        $order = $this->orderRepository->getById($orderUpdate->id);
 
-        $order = $this->orderService->createOrder(
+        $this->orderService->updateOrder(
+            $order,
             $orderUpdate->hash,
             $orderUpdate->name,
             $orderUpdate->token,
