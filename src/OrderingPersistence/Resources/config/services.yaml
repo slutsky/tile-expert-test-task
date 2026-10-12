@@ -8,5 +8,10 @@ services:
         resource: '../../'
         exclude: '../../Resources'
 
+    App\Ordering\FlusherInterface:
+        class: App\OrderingPersistence\Service\Flusher
+
     App\Ordering\OrderRepositoryInterface:
         class: App\OrderingPersistence\Repository\OrderRepository
+
+    App\Ordering\OrderService:
