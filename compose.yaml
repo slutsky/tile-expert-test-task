@@ -1,6 +1,7 @@
 services:
   nginx:
     build: ./docker/nginx
+    restart: unless-stopped
     ports:
       - ${NGINX_PORT:-80}:8080
     volumes:
@@ -11,6 +12,7 @@ services:
 
   wsdl-web:
     build: ./docker/wsdl-web
+    restart: unless-stopped
     environment:
       WSDL_DEFAULT: /soap/v1/orders?wsdl
 
@@ -19,6 +21,7 @@ services:
       context: ./docker/php
       args:
         USER_ID: ${USER_ID:-1000}
+    restart: unless-stopped
     shm_size: 256mb
     volumes:
       - .:/var/www/html:rw
@@ -32,6 +35,12 @@ services:
         condition: service_healthy
     extra_hosts:
       - host.docker.internal:host-gateway
+
+  manticore:
+    image: manticoresearch/manticore
+    restart: unless-stopped
+    ports:
+      - ${MANTICORE_PORT:-9308}:9308
 
 ###> doctrine/doctrine-bundle ###
   mariadb:
