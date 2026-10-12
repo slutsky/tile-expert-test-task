@@ -8,10 +8,12 @@ use App\Ordering\CountByPeriod;
 use App\Ordering\IntervalBy;
 use App\Ordering\Order;
 use App\Ordering\OrderArticle;
+use App\Ordering\OrderNotFoundException;
 use App\OrderingPersistence\Factory\OrderArticleFactory;
 use App\OrderingPersistence\Factory\OrderFactory;
 use App\OrderingPersistence\Repository\OrderRepository;
 use App\OrderingPersistence\Story\OrderStory;
+use App\OrderingPersistence\Story\SingleOrderStory;
 use PHPUnit\Framework\Attributes\CoversClass;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Zenstruck\Foundry\Attribute\WithStory;
@@ -19,6 +21,7 @@ use Zenstruck\Foundry\Attribute\WithStory;
 #[CoversClass(OrderRepository::class)]
 #[CoversClass(OrderFactory::class)]
 #[CoversClass(OrderArticleFactory::class)]
+#[CoversClass(SingleOrderStory::class)]
 #[CoversClass(OrderStory::class)]
 #[CoversClass(Order::class)]
 #[CoversClass(OrderArticle::class)]
@@ -47,6 +50,24 @@ class OrderRepositoryTest extends KernelTestCase
         parent::tearDown();
 
         unset($this->orderRepository);
+    }
+
+    #[WithStory(SingleOrderStory::class)]
+    public function testGetOrder(): void
+    {
+        $expectedOrder = SingleOrderStory::getRandom('single_order');
+        self::assertInstanceOf(Order::class, $expectedOrder);
+
+        $order = $this->orderRepository->getById($expectedOrder->id);
+
+        self::assertSame($expectedOrder, $order);
+    }
+
+    public function testGetOrderWhenOrderNotFound(): void
+    {
+        $this->expectException(OrderNotFoundException::class);
+
+        $this->orderRepository->getById(1);
     }
 
     public function testCountByDate(): void
