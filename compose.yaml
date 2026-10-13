@@ -31,16 +31,26 @@ services:
       PHP_OPCACHE_VALIDATE_TIMESTAMPS: 1
       PHP_SOAP_WSDL_CACHE_ENABLED: 0
     depends_on:
+      manticore:
+        condition: service_healthy
       mariadb:
         condition: service_healthy
     extra_hosts:
       - host.docker.internal:host-gateway
 
   manticore:
-    image: manticoresearch/manticore
+    image: manticoresearch/manticore:29.9.0
     restart: unless-stopped
     ports:
-      - ${MANTICORE_PORT:-9308}:9308
+      - ${MANTICORE_SQL_PORT:-9306}:9306
+    healthcheck:
+      test: ["CMD", "mysql", "-P9306", "-e", "SELECT 1;"]
+      interval: 1s
+      timeout: 1s
+      retries: 5
+      start_period: 10s
+    volumes:
+      - manticore_data:/var/lib/manticore
 
 ###> doctrine/doctrine-bundle ###
   mariadb:
@@ -64,6 +74,7 @@ services:
 ###< doctrine/doctrine-bundle ###
 
 volumes:
+  manticore_data:
 ###> doctrine/doctrine-bundle ###
   mariadb_data:
 ###< doctrine/doctrine-bundle ###

@@ -87,6 +87,23 @@ final class OrderDto
     ) {
     }
 
+    /**
+     * @param Order[] $orders
+     *
+     * @return array<int, self>
+     *
+     * @phpstan-return list<self>
+     */
+    public static function fromEntities(array $orders): array
+    {
+        $created = [];
+        foreach ($orders as $order) {
+            $created[] = self::fromEntity($order);
+        }
+
+        return $created;
+    }
+
     public static function fromEntity(Order $order): self
     {
         return new self(
