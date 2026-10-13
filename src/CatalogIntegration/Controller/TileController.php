@@ -18,7 +18,7 @@ use Symfony\Component\HttpKernel\Attribute\MapQueryString;
 use Symfony\Component\HttpKernel\Exception\UnprocessableEntityHttpException;
 use Symfony\Component\Routing\Attribute\Route;
 
-#[OA\Tag(name: 'CatalogIntegration')]
+#[OA\Tag(name: 'Catalog')]
 class TileController extends AbstractController
 {
     public function __construct(

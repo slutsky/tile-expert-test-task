@@ -38,7 +38,7 @@ final class OrderController extends AbstractController
         response: Response::HTTP_OK,
         description: 'Get orders',
         content: new OA\JsonContent(
-            ref: new Model(type: PaginatedCountByPeriodDto::class),
+            ref: new Model(type: OrderDto::class),
         ),
     )]
     #[OA\Response(

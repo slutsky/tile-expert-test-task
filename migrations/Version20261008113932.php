@@ -6,12 +6,21 @@ namespace DoctrineMigrations;
 
 use Doctrine\DBAL\Schema\Schema;
 use Doctrine\Migrations\AbstractMigration;
+use Override;
 
 final class Version20261008113932 extends AbstractMigration
 {
     public function getDescription(): string
     {
         return 'Create orders and orders_article tables';
+    }
+
+    #[Override]
+    public function isTransactional(): bool
+    {
+        // MariaDB commit transaction before each DDL query.
+        // With MariaDB Transactional mode in migrations is useless.
+        return false;
     }
 
     public function up(Schema $schema): void
