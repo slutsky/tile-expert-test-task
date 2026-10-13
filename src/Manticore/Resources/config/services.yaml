@@ -1,0 +1,20 @@
+parameters:
+    app.manticore.host: '%env(string:MANTICORE_HOST)%'
+    app.manticore.port: '%env(string:MANTICORE_HTTP_PORT)%'
+
+services:
+    # default configuration for services in *this* file
+    _defaults:
+        autowire: true      # Automatically injects dependencies in your services.
+        autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
+
+    App\Manticore\:
+        resource: '../../'
+        exclude: '../../Resources'
+
+    Manticoresearch\Client:
+        arguments:
+            $config:
+                host: '%app.manticore.host%'
+                port: '%app.manticore.port%'
+            $logger: '@logger'

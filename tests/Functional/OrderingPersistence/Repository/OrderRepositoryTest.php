@@ -26,6 +26,7 @@ use Zenstruck\Foundry\Attribute\WithStory;
 #[CoversClass(Order::class)]
 #[CoversClass(OrderArticle::class)]
 #[CoversClass(CountByPeriod::class)]
+#[CoversClass(OrderNotFoundException::class)]
 #[WithStory(OrderStory::class)]
 class OrderRepositoryTest extends KernelTestCase
 {

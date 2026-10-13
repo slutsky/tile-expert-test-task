@@ -4,15 +4,17 @@ declare(strict_types=1);
 
 namespace App\Tests\Application\OrderingRest\Controller;
 
+use App\Manticore\Service\ManticoreSearcherInterface;
 use App\Ordering\IntervalBy;
 use App\Ordering\Order;
-use App\Ordering\OrderNotFoundException;
+use App\OrderingPersistence\Factory\OrderFactory;
 use App\OrderingPersistence\Story\OrderStory;
 use App\OrderingPersistence\Story\SingleOrderStory;
 use App\OrderingRest\Controller\OrderController;
 use App\OrderingRest\Dto\OrderCountFilterDto;
 use App\OrderingRest\Dto\OrderDto;
 use App\OrderingRest\Dto\PaginatedCountByPeriodDto;
+use App\OrderingRest\Service\OrderSearcher;
 use PHPUnit\Framework\Attributes\CoversClass;
 use Symfony\Bundle\FrameworkBundle\KernelBrowser;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
@@ -23,7 +25,6 @@ use Zenstruck\Foundry\Attribute\WithStory;
 #[CoversClass(OrderCountFilterDto::class)]
 #[CoversClass(OrderDto::class)]
 #[CoversClass(PaginatedCountByPeriodDto::class)]
-#[CoversClass(OrderNotFoundException::class)]
 class OrderControllerTest extends WebTestCase
 {
     private KernelBrowser $client;
@@ -60,6 +61,26 @@ class OrderControllerTest extends WebTestCase
         $this->client->jsonRequest('GET', '/api/v1/orders/1');
 
         self::assertResponseStatusCodeSame(Response::HTTP_NOT_FOUND);
+    }
+
+    public function testGetSearch(): void
+    {
+        $seacher = $this->createConfiguredStub(OrderSearcher::class, [
+            'search' => [OrderFactory::createOne()],
+        ]);
+
+        self::getContainer()->set(OrderSearcher::class, $seacher);
+
+        $this->client->jsonRequest('GET', '/api/v1/orders/search?s=search');
+
+        self::assertResponseStatusCodeSame(Response::HTTP_OK);
+    }
+
+    public function testGetSearchWithNoResults(): void
+    {
+        $this->client->jsonRequest('GET', '/api/v1/orders/search?s=search');
+
+        self::assertResponseStatusCodeSame(Response::HTTP_OK);
     }
 
     #[WithStory(OrderStory::class)]
