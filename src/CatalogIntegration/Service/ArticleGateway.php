@@ -32,7 +32,12 @@ final class ArticleGateway implements ArticleGatewayInterface
     #[\Override]
     public function getArticle(string $factory, string $collection, string $article): Article
     {
-        $url = sprintf('en-us/slideshow-json/%s/%s/a/%s', $factory, $collection, $article);
+        $url = sprintf(
+            'en-us/slideshow-json/%s/%s/a/%s',
+            urlencode($factory),
+            urlencode($collection),
+            urlencode($article),
+        );
         $response = $this->client->request('GET', $url);
 
         $content = '';
